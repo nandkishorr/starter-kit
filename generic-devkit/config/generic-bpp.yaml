@@ -44,7 +44,7 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: cnn_beck_bpp.ohc.network
+            subscriberId: cnn-beck-bpp.ohc.network
             keyId: 76EU9CK1STZYVcS1nw5mTbKPxnv4DPR4avq3nyNVc8YvMu8Rfb8heY
             signingPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
             signingPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
@@ -114,7 +114,7 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: cnn_beck_bpp.ohc.network
+            subscriberId: cnn-beck-bpp.ohc.network
             keyId: 76EU9CK1STZYVcS1nw5mTbKPxnv4DPR4avq3nyNVc8YvMu8Rfb8heY
             signingPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
             signingPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
@@ -198,7 +198,7 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: cnn_beck_bpp.ohc.network
+            subscriberId: cnn-beck-bpp.ohc.network
             keyId: 76EU9CK1STZYVcS1nw5mTbKPxnv4DPR4avq3nyNVc8YvMu8Rfb8heY
             signingPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
             signingPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
