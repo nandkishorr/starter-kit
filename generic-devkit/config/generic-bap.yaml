@@ -45,12 +45,12 @@ modules:
           config:
             # Testnet sandbox subscriber registered on beckn.one/testnet
             # Replace with your own registered subscriber ID and keys for production
-            subscriberId: bap.example.com
-            keyId: 76EU7LZ7gfqj13dWDKR1Uitnim11mCoxWBPdzLxUpAMBPVdANKgyFM
-            signingPrivateKey: TTQMAEy0xJcoRXRNofZAwZq1c3VH6j98UUaHP7budQQ=
-            signingPublicKey: g/3swjI93IhZ0SScrVZapeLjU+W0AeiSid3LViYZJFo=
-            encrPrivateKey: TTQMAEy0xJcoRXRNofZAwZq1c3VH6j98UUaHP7budQQ=
-            encrPublicKey: g/3swjI93IhZ0SScrVZapeLjU+W0AeiSid3LViYZJFo=
+            subscriberId: cnn_beck_bap.ohc.network
+            keyId: 76EU8DaWNyY1t6ma7DyPcdBGLqMVGLTbLx7n6dq4q6HpAxZTmbA5aP
+            signingPrivateKey: VmqqllaFJlR92A6tJUrrnCEVSDgLcfMduoiLoQVE/g8=
+            signingPublicKey: UZG3/nB3eIKBhtYhSlyScvefhe+Q2AG2+lwhC/knp8U=
+            encrPrivateKey: VmqqllaFJlR92A6tJUrrnCEVSDgLcfMduoiLoQVE/g8=
+            encrPublicKey: UZG3/nB3eIKBhtYhSlyScvefhe+Q2AG2+lwhC/knp8U=
         cache:
           id: cache
           config:
@@ -115,12 +115,12 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: bap.example.com
-            keyId: 76EU7LZ7gfqj13dWDKR1Uitnim11mCoxWBPdzLxUpAMBPVdANKgyFM
-            signingPrivateKey: TTQMAEy0xJcoRXRNofZAwZq1c3VH6j98UUaHP7budQQ=
-            signingPublicKey: g/3swjI93IhZ0SScrVZapeLjU+W0AeiSid3LViYZJFo=
-            encrPrivateKey: TTQMAEy0xJcoRXRNofZAwZq1c3VH6j98UUaHP7budQQ=
-            encrPublicKey: g/3swjI93IhZ0SScrVZapeLjU+W0AeiSid3LViYZJFo=
+            subscriberId: cnn_beck_bap.ohc.network
+            keyId: 76EU8DaWNyY1t6ma7DyPcdBGLqMVGLTbLx7n6dq4q6HpAxZTmbA5aP
+            signingPrivateKey: VmqqllaFJlR92A6tJUrrnCEVSDgLcfMduoiLoQVE/g8=
+            signingPublicKey: UZG3/nB3eIKBhtYhSlyScvefhe+Q2AG2+lwhC/knp8U=
+            encrPrivateKey: VmqqllaFJlR92A6tJUrrnCEVSDgLcfMduoiLoQVE/g8=
+            encrPublicKey: UZG3/nB3eIKBhtYhSlyScvefhe+Q2AG2+lwhC/knp8U=
         cache:
           id: cache
           config:

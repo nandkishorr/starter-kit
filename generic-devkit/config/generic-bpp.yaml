@@ -44,12 +44,12 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: bpp.example.com
-            keyId: 76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy
-            signingPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            signingPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
-            encrPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            encrPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
+            subscriberId: cnn_beck_bpp.ohc.network
+            keyId: 76EU9CK1STZYVcS1nw5mTbKPxnv4DPR4avq3nyNVc8YvMu8Rfb8heY
+            signingPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
+            signingPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
+            encrPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
+            encrPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
         cache:
           id: cache
           config:
@@ -114,12 +114,12 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: bpp.example.com
-            keyId: 76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy
-            signingPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            signingPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
-            encrPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            encrPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
+            subscriberId: cnn_beck_bpp.ohc.network
+            keyId: 76EU9CK1STZYVcS1nw5mTbKPxnv4DPR4avq3nyNVc8YvMu8Rfb8heY
+            signingPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
+            signingPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
+            encrPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
+            encrPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
         cache:
           id: cache
           config:
@@ -198,12 +198,12 @@ modules:
         keyManager:
           id: simplekeymanager
           config:
-            subscriberId: bpp.example.com
-            keyId: 76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy
-            signingPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            signingPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
-            encrPrivateKey: 393fVJJsfqssJCRAjedKR2cKAjSLrjU3t+bICQ5KzYM=
-            encrPublicKey: CqVy97DW45bcZPPrWIYGe2ldl9C93NFeVciiAEYsvR0=
+            subscriberId: cnn_beck_bpp.ohc.network
+            keyId: 76EU9CK1STZYVcS1nw5mTbKPxnv4DPR4avq3nyNVc8YvMu8Rfb8heY
+            signingPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
+            signingPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
+            encrPrivateKey: WYj+1wE7Sn1ctUzci+nFDvXOEUy6TgGqAsIptbGgkrM=
+            encrPublicKey: 4lBkz264em/L8ZiKxXZtKA+jYXVmqsuxGHDHy+gkQ1o=
         # catalogBlobStore: required by the catalogPublish handler -- it reads
         # prior state from and persists publish results here (outputRoot above
         # is no longer read directly). Same path outputRoot points to (/beckn).
@@ -219,7 +219,7 @@ modules:
             # Public URL prefix outputRoot is served under (beckn-router's
             # ngrok tunnel, /beckn/* route in install/Caddyfile). Update if
             # your ngrok domain changes.
-            catalogBaseURL: "https://<your-static-domain>.ngrok-free.app/beckn"
+            catalogBaseURL: "http://168.144.114.60:9000/beckn"
             # Read-only, warn-only: checks whether this node's DeDi registry
             # record links this catalog index via meta.catalog_index_urls.
             checkCatalogIndexLink: "true"
