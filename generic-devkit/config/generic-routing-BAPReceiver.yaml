@@ -8,7 +8,7 @@ routingRules:
     version: "2.0.0"
     targetType: "url"
     target:
-      url: "http://sandbox-bap:3001/api/bap-webhook"
+      url: "https://develop-api.ohc.network/api/v1/beckn/bap/receiver"
     endpoints:
       - on_discover
       - on_select
